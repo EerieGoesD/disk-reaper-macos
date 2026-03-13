@@ -11,13 +11,13 @@ A lightweight, native-feeling macOS utility built with Electron for keeping your
 ## Features
 
 ### Large Files
-Scan any folder (or your entire disk) for large files. Sort by size, filter by type, delete or reveal in Finder. Right-click any file for quick actions.
+Scan any folder (or your entire disk) for large files/folders and delete if required.
 
 ### Installed Apps
 Lists all apps in `/Applications` with their real on-disk size (including support files). Uninstall apps you no longer need.
 
 ### Processes
-Live view of all running processes with CPU, memory, and full command info. Right-click to kill a process or kill its entire tree.
+Live view of all running processes with CPU, memory, and full command info. Kill any process or its entire tree.
 
 ### Services
 Browse and manage launchd agents and daemons. Start or stop background services without touching the terminal.
@@ -46,18 +46,7 @@ Export scan results to CSV or TXT for reference or sharing.
 - macOS 12 or later (tested on macOS 15 Sequoia)
 - Node.js 18+
 
-## Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Run in development
-npm start
-
-# Build a distributable .dmg
-npm run build
-```
+## Releases
 
 ## Tech Stack
 
